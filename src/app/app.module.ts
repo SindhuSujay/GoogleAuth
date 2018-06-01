@@ -16,6 +16,7 @@ import { AngularFireAuth } from 'angularfire2/auth';
 import { firebaseConfig } from '../config';
 import { LoginPage } from '../pages/login/login'
 import { AuthService} from '../services/auth.service'
+import { SignupPage } from '../pages/signup/signup';
 
 
 
@@ -23,7 +24,8 @@ import { AuthService} from '../services/auth.service'
   declarations: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    SignupPage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +43,8 @@ import { AuthService} from '../services/auth.service'
   entryComponents: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    SignupPage
   ],
   providers: [
     SplashScreen,

@@ -3,6 +3,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { NavController } from 'ionic-angular';
 import { HomePage } from '../home/home';
 import { AuthService } from '../../services/auth.service';
+import { SignupPage } from '../signup/signup';
 
 
 @IonicPage()
@@ -43,6 +44,10 @@ export class LoginPage {
 			);
     }
 
+		signup(){
+			this.navCtrl.push(SignupPage);
+		}
+	
   
 
   loginWithGoogle() {

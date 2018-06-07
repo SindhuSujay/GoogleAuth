@@ -5,7 +5,19 @@
     </ion-title>
   </ion-navbar>
 </ion-header>
- 
-<ion-content padding>
-  <button ion-button full (click)="showPlatform()">Where am I running?</button>
+
+
+<ion-content>
+	<ion-list>
+		
+		<ion-list-header *ngIf="auth.getEmail()">{{auth.getEmail()}}</ion-list-header>
+
+		<ion-item (click)="logout()" *ngIf="auth.authenticated">
+			<ion-icon name="log-out" item-left></ion-icon>
+			Log out
+		</ion-item>
+
+	
+	</ion-list>
+
 </ion-content>

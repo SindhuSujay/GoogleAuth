@@ -10,7 +10,7 @@
 <ion-content>
 	<ion-list>
 		
-		<ion-list-header *ngIf="auth.getEmail()">{{auth.getEmail()}}</ion-list-header>
+		<ion-list-header *ngIf="auth.getEmail()">Welcome {{auth.getEmail()}}</ion-list-header>
 
 		<ion-item (click)="logout()" *ngIf="auth.authenticated">
 			<ion-icon name="log-out" item-left></ion-icon>

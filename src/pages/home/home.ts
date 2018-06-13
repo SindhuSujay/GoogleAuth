@@ -13,16 +13,6 @@ export class HomePage {
  
   }
  
-  showPlatform() {
-    let text = 'I run on: ' + this.platform.platforms();
-    let alert = this.alertCtrl.create({
-      title: 'My Home',
-      subTitle: text,
-      buttons: ['Ok']
-    });
-    alert.present();
-  }
-  
 	logout() {
 		
 		this.auth.signOut();

@@ -6,7 +6,7 @@ import { AuthService } from '../../services/auth.service';
 import { SignupPage } from '../signup/signup';
 
 
-@IonicPage()
+
 @Component({
   selector: 'page-login',
   templateUrl: 'login.html',

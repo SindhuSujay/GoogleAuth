@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+
 
 export const firebaseConfig = {
 	fire: {

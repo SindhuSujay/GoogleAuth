@@ -4,7 +4,7 @@ import { HttpModule } from '@angular/http';
 import { NgxErrorsModule } from '@ultimate/ngxerrors';
 import { BrowserModule } from '@angular/platform-browser';
 import { StatusBar } from '@ionic-native/status-bar';
-import { IonicApp, IonicErrorHandler, IonicModule, Config } from 'ionic-angular';
+import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 

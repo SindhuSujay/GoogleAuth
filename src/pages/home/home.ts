@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, AlertController, Platform } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 import { AuthService } from '../../services/auth.service';
 import { LoginPage } from '../login/login';
  
@@ -9,7 +9,7 @@ import { LoginPage } from '../login/login';
 })
 export class HomePage {
  
-  constructor(public navCtrl: NavController, private alertCtrl: AlertController, private platform: Platform,private auth : AuthService) {
+  constructor(public navCtrl: NavController,private auth : AuthService) {
  
   }
  
